@@ -33,7 +33,6 @@ now add the code snippet from Burn book
 
 
 
-
 now for running the app use 
 
 ``` 
@@ -80,10 +79,10 @@ rustup target add wasm32-wasi
 ```
 
 Now installing cmake 
+```
+brew install cmake
 
-
-
-
+```
 
 
 
@@ -97,14 +96,10 @@ cd WasmEdge/plugins/wasmedge_rustls
 cargo build --release
 ```
 
-![App Screenshot](https://github.com/Sahilgill24/LFX-Mentorship-WasmEdge-2024-01-Pre-test_3172/blob/main/images/Screenshot%202024-02-12%20at%209.56.32%20PM.png)
+copy target to plugin path
 ```
 cp libwasmedge_rustls.so  ~/.wasmedge/plugin/
 ```
-
-
-
-
 
 
 
@@ -124,6 +119,9 @@ wasmedge run ./target/wasm32-wasi/release/wasmedge_hyper_client.wasm
 ```
 
 ![App Screenshot](https://github.com/Sahilgill24/LFX-Mentorship-WasmEdge-2024-01-Pre-test_3172/blob/main/images/Screenshot%202024-02-12%20at%2010.10.51%20PM.png)
+
+
+
 
 
 
