@@ -27,7 +27,7 @@ cargo build
 
 ```
 
-now add the code snippet from Burn book 
+now add the code snippet from Burn book https://burn.dev/book/getting-started.html
 
 ![App Screenshot](https://github.com/Sahilgill24/LFX-Mentorship-WasmEdge-2024-01-Pre-test_3172/blob/main/images/Screenshot%202024-02-12%20at%207.16.56%20PM.png)
 
@@ -42,7 +42,7 @@ cargo run
 
 ![App Screenshot](https://github.com/Sahilgill24/LFX-Mentorship-WasmEdge-2024-01-Pre-test_3172/blob/main/images/Screenshot%202024-02-12%20at%207.18.08%20PM.png)
 
-Now trying the text classification example of burn  again using ```wgpu```backend  
+#### Now trying the text classification example of burn  again using ```wgpu```backend  
 
 ```
 git clone https://github.com/tracel-ai/burn.git
@@ -67,7 +67,7 @@ cargo run --example ag-news-infer --release --features wgpu   # Run inference on
 
 ### 2. ```Rustls``` building and testing 
 
-Install WasmEdge 
+Install WasmEdge and Cmake 
 
 ```
 # install WasmEdge
@@ -76,13 +76,11 @@ curl -sSf https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/insta
 #set up rust compiler's target
 rustup target add wasm32-wasi
 
-```
-
-Now installing cmake 
-```
+# install cmake
 brew install cmake
 
 ```
+
 
 
 
@@ -119,7 +117,6 @@ wasmedge run ./target/wasm32-wasi/release/wasmedge_hyper_client.wasm
 ```
 
 ![App Screenshot](https://github.com/Sahilgill24/LFX-Mentorship-WasmEdge-2024-01-Pre-test_3172/blob/main/images/Screenshot%202024-02-12%20at%2010.10.51%20PM.png)
-
 
 
 
