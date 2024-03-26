@@ -121,6 +121,12 @@ wasmedge run ./target/wasm32-wasi/release/wasmedge_hyper_client.wasm
 
 
 
+heellooo jjiii 
+
+
+
+how r u ?
+
 
 
 
