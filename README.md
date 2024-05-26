@@ -122,7 +122,7 @@ wasmedge run ./target/wasm32-wasi/release/wasmedge_hyper_client.wasm
 
 
 heellooo jjiii 
-these cahnges are done bu me i remember git
+these cahnges are done by me i remember git
 
 
 
